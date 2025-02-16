@@ -8,7 +8,7 @@ import Animated, {
 
 export const Eye = ({ progress }: { progress: SharedValue<number> }) => {
   const rStyle = useAnimatedStyle(() => {
-    const scale = interpolate(progress.value, [0, 1], [0.4, 0.8]);
+    const scale = interpolate(progress.value, [0, 1], [0.8, 0.8]);
     const width = scale * 10;
     const height = scale * 10;
     const translateX = interpolate(progress.value, [0, 1], [-4, 4]);
@@ -33,8 +33,8 @@ export const Eye = ({ progress }: { progress: SharedValue<number> }) => {
 
 const styles = StyleSheet.create({
   eyeContainer: {
-    width: 20,
-    height: 20,
+    width: 15,
+    height: 15,
     backgroundColor: 'white',
     borderRadius: 10,
     justifyContent: 'center',

@@ -29,7 +29,7 @@ export const IconSquare = forwardRef<InternalIconRef, IconSquareProps>(
       return interpolate(
         codeProgressPercentage.value,
         [0, 1],
-        [-Math.PI / 8, Math.PI / 8],
+        [-Math.PI / 25, Math.PI / 25],
       );
     }, [codeProgressPercentage]);
 
@@ -43,7 +43,7 @@ export const IconSquare = forwardRef<InternalIconRef, IconSquareProps>(
             rotateY: `${rotationY.value}rad`,
           },
           {
-            rotateX: `${-Math.PI / 8}rad`,
+            rotateX: `${-Math.PI / 25}rad`,
           },
         ],
       };
@@ -83,11 +83,6 @@ export const IconSquare = forwardRef<InternalIconRef, IconSquareProps>(
 
 const styles = StyleSheet.create({
   container: {
-    height: 96,
-    width: 96,
-    borderRadius: 24,
-    borderCurve: 'continuous',
-    backgroundColor: 'black',
     justifyContent: 'center',
     alignItems: 'center',
   },
