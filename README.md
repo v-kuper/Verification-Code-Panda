@@ -15,8 +15,8 @@ Check out the animation in action:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/panda-animation.git
-   cd panda-animation
+   git clone https://github.com/v-kuper/Verification-Code-Panda.git
+   cd Verification-Code-Panda
    ```
 
 2. Install dependencies:
