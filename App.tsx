@@ -4,8 +4,8 @@
  */
 
 import React from 'react';
-import { VerificationCodeScreen } from './src/screens/verification-code';
+import {VerificationCodeScreen} from './src/screens/verification-code';
 
 export function App() {
-    return <VerificationCodeScreen correctCode={1234} />
+  return <VerificationCodeScreen correctCode={1234} />;
 }
